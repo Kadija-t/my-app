@@ -11,7 +11,7 @@
 const Banner = () => {
     return (
       <>
-      <div className="banner-title">
+      <div className="banner">
       <h1 >Chez vous, partout et ailleurs</h1>
       </div>
      </>
@@ -20,3 +20,6 @@ const Banner = () => {
   
   export default Banner;
   
+
+
+
