@@ -12,7 +12,7 @@ import "./sass/component/_nav.scss";
 import "./sass/component/_footer.scss";
 import "./sass/component/_header.scss";
 // import "./css/banner.css";
-import './sass/component/_banner.scss';
+import './sass/component/_card.scss';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

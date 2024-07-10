@@ -20,7 +20,7 @@ style sass => A faire
             House.map (house => {
                 return(
                     <div className="box" key={ house.id }>
-                        <strong>{ house.title }</strong>
+                        <h3>{ house.title }</h3><br></br>
                         <img src={ house.cover } alt =""/>
                     </div>
                 )

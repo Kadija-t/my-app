@@ -20,12 +20,17 @@ const Header = () => {
 
 
 <header>
-<img src={logo} alt='logo-white' className='white-logo' />
-<div id='nav'>
-    <NavLink className={(isActive)} to='/'> Accueil</NavLink>
+<img className= "navbar__logo" src={logo} alt='logo-white' />
+<div className='navbar'>
+    {/* <NavLink className={(isActive)} to='/'> Accueil</NavLink>
     <NavLink className={(isActive)} to='/about'> A Propos</NavLink>
     <NavLink className={(isActive)} to='/houses'> Logement</NavLink>
-    <NavLink className={(isActive)} to='/error'> Erreur</NavLink>
+    <NavLink className={(isActive)} to='/error'> Erreur</NavLink> */}
+
+    <NavLink className="navbar__link"to='/'> Accueil</NavLink>
+    <NavLink className="navbar__link"to='/about'> A Propos</NavLink>
+    <NavLink className="navbar__link"to='/houses'> Logement</NavLink>
+    <NavLink className="navbar__link" to='/error'> Erreur</NavLink>
 </div>
 </header>
     </>
