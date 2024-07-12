@@ -10,6 +10,7 @@ import "./sass/component/_nav.scss";
 import "./sass/component/_footer.scss";
 import "./sass/component/_header.scss";
 import './sass/component/_card.scss';
+import "./sass/layout/_about.scss";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

@@ -1,18 +1,16 @@
+import "../../css/banner.css";
 
-    /*************************************************************************************************************************
-         
-                    Etapes à faire dans le banner
+const Banner = ({title, bannerImage}) => {
+  //state
+//get variable banner image from css banner prop 
 
-1. Banniere qui prend quasi toute la largeur      
+ //comportement
 
-    **************************************************************************************************************************/
-
-
-const Banner = () => {
     return (
       <>
       <div className="banner">
-      <h1 >Chez vous, partout et ailleurs</h1>
+        <img className="bg-img" src={bannerImage} alt=""/>
+        <h1 className='banner-title'>{title}</h1>
       </div>
      </>
     );

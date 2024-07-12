@@ -1,6 +1,31 @@
+.banner {
+    width: 100%;
+    height: 30vh;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: rgba(5, 2, 5, 0.6);
+}
+
 .banner-title {
-    color: black;
-    text-align: right;
-    padding: 35px;
-    border-bottom: solid 3px rgb(126, 124, 124);
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -70%;
+    
+}
+
+.bg-img {
+    width: 110%;
+    height:150%;
+    object-fit: cover;
+    z-index: -1;
+    border-radius: inherit;
 }

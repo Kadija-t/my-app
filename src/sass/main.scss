@@ -1,8 +1,18 @@
 @import "./utils/_variables";
-@import "./base/_base";;
+@import "./base/_base";
 @import "./component/_stars";
 
+$font-montserrat: 'Montserrat', sans-serif;
+
+
 body {
+    font-family: Montserrat, sans serif;
     box-sizing: border-box;
-    background: rgb(228, 205, 179); 
+    background: white; 
+    font-family: $font-montserrat;
+    
   }
+ main {
+  padding-right: 150px;
+  padding-left: 150px;
+ }

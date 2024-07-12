@@ -1,11 +1,17 @@
 footer {
     background-color: black;
-    padding-left: 700px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 30px 30px;
+    
 }
 p {
-    color:white
+    color:white;
+    font-size: larger;
+
 }
 img {
-    width: 7%;
-    margin-left: 70px;
+    width: 10%;
 }

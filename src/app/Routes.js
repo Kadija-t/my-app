@@ -4,13 +4,13 @@ import Home from "./pages/Home"
 import About from "./pages/About"
 import Houses from "./pages/Houses"
 import Error from "./pages/Error"
-import Header from "./components/Header";
+//import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 const AppRoutes = () => {
     return (
     <>
-        <Header />
+        
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
@@ -18,7 +18,6 @@ const AppRoutes = () => {
             <Route path="/houses/" element={<Houses />} />
             <Route path="/error" element={<Error />} />
         </Routes>
-        
         <Footer />
     </>
     )
