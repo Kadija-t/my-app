@@ -1,5 +1,3 @@
-import "../../css/banner.css";
-
 const Banner = ({title, bannerImage}) => {
   //state
 //get variable banner image from css banner prop 
@@ -9,7 +7,7 @@ const Banner = ({title, bannerImage}) => {
     return (
       <>
       <div className="banner">
-        <img className="bg-img" src={bannerImage} alt=""/>
+        <img className="bg-img" src={bannerImage} alt="BIEN METTRE UN ALT :D "/>
         <h1 className='banner-title'>{title}</h1>
       </div>
      </>

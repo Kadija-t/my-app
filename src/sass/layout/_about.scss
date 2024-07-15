@@ -11,13 +11,13 @@
 }
 
 .item {
-    background-color: rgb(247, 37, 37);
+    background-color: rgb(255, 96, 96);
     padding: 10px 20px;
     margin-bottom: 10px;
 }
 
 .title {
-    color: black;
+    color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,13 +25,14 @@
 }
 
 .content {
-    color: antiquewhite;
+    color: black;
+    background-color: white;
     max-height: 0;
     overflow: hidden;
     transition: all 0.5s cubic-bezier(0,1,0,1);
 }
 
 .content.show {
-    max-height: 1500px;
+    max-height: 100px;
     transition: all 0.5s cubic-bezier(0,1,0,1);
 }

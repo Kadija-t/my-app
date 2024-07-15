@@ -5,6 +5,8 @@ import Header from '../components/Header'
  
 // state : getting place infos (id..) //filter house by id   //if none found then message //else display info (title...)
 
+// Vérifier si le logement n'existe pas retourner sur la page 404
+// Utilisation de useState / useEffect
  const  Houses = () => {
    const {id} = useParams() 
    const selectedHouse = House.find(house => house.id === id);
