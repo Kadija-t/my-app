@@ -34,7 +34,7 @@ const Card = ({Houses}) => {
             <div
               className="box"
               key={house.id}
-            //  onClick={() => handleClick(house.id)}
+              onClick={() => handleClick(house.id)}
               style={{
                 backgroundImage: `url(${house.cover})`,
               }}
