@@ -30,11 +30,14 @@ import { useParams, useNavigate } from 'react-router-dom'
 
   return (
     <>
+    <main>
         <Header/> 
         <div className="slide-container">
         <Slideshow images={selectedHouse.pictures}></Slideshow> 
         </div>
-        <h1>{selectedHouse.title}</h1>
+        <h1 className="house-tile">{selectedHouse.title}</h1>
+        <h3 >{selectedHouse.location}</h3>
+      </main>
     </>
   );
 };

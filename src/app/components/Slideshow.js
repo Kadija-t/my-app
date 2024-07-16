@@ -30,11 +30,11 @@ const Slideshow = ({ images }) => {
         className="slide-container"
         style={{
           backgroundImage: `url(${images[currentIndex]})`,
-          height: '320px',
-          width: '500px',
-          marginLeft:'400px',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center'
+        //   height: '320px',
+        //   width: '100%',
+        //   backgroundSize: 'cover',
+        //   backgroundPosition: 'center',
+        //   borderRadius: '10px'
         }}
       ></div>
       <button onClick={handlePrev} disabled={prevDisabled}>
