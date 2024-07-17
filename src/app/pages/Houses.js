@@ -14,7 +14,7 @@ import { useParams, useNavigate } from 'react-router-dom'
    const navigate = useNavigate();
 
    const selectedHouse = House.find(house => house.id === id);
-   console.log(pictures);
+ 
 
   //  useEffect(() =>{
   //   const imageHouse = selectedHouse;
